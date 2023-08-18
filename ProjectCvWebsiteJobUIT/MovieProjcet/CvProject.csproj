@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F828300-7223-4E9F-ABB5-AFC7A4F25744}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MovieProjcet</RootNamespace>
+    <AssemblyName>MovieProjcet</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL" />
+    <Reference Include="Bunifu.UI.WinForms">
+      <HintPath>..\..\..\Bunifu-Crack-main\Bunifu.UI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\..\BunifuCrackV5-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\..\BunifuCrackV5-main\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>..\..\..\BunifuCrackV5-main\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\..\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\..\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\..\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomControls">
+      <HintPath>..\..\..\CustomControls.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=6.2.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.2.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInfoRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInfoRegister.Designer.cs">
+      <DependentUpon>AddInfoRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCreateJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminCreateJob.Designer.cs">
+      <DependentUpon>AdminCreateJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard.Designer.cs">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPage.Designer.cs">
+      <DependentUpon>AdminPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminProfile.Designer.cs">
+      <DependentUpon>AdminProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attr_Education.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Attr_Education.Designer.cs">
+      <DependentUpon>Attr_Education.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attr_Employment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Attr_Employment.Designer.cs">
+      <DependentUpon>Attr_Employment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attr_Skill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Attr_Skill.Designer.cs">
+      <DependentUpon>Attr_Skill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company.Designer.cs">
+      <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateCV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateCV.Designer.cs">
+      <DependentUpon>CreateCV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailEmployee.Designer.cs">
+      <DependentUpon>DetailEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailRecruitmentBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailRecruitmentBox.Designer.cs">
+      <DependentUpon>DetailRecruitmentBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadCV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DownloadCV.Designer.cs">
+      <DependentUpon>DownloadCV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dublin_CV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dublin_CV.Designer.cs">
+      <DependentUpon>Dublin_CV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dublin_Education.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dublin_Education.Designer.cs">
+      <DependentUpon>Dublin_Education.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dublin_Employment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dublin_Employment.Designer.cs">
+      <DependentUpon>Dublin_Employment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dublin_Skill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dublin_Skill.Designer.cs">
+      <DependentUpon>Dublin_Skill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployersSeeCVBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmployersSeeCVBox.Designer.cs">
+      <DependentUpon>EmployersSeeCVBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindAJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindAJob.Designer.cs">
+      <DependentUpon>FindAJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History.cs" />
+    <Compile Include="HistoryBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HistoryBox.Designer.cs">
+      <DependentUpon>HistoryBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobForYouBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JobForYouBox.Designer.cs">
+      <DependentUpon>JobForYouBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JobType.Designer.cs">
+      <DependentUpon>JobType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewMap.Designer.cs">
+      <DependentUpon>NewMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenTempPlate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenTempPlate.Designer.cs">
+      <DependentUpon>OpenTempPlate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RequestJob.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RequestJob.Designer.cs">
+      <DependentUpon>RequestJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stockholm_CV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stockholm_CV.Designer.cs">
+      <DependentUpon>Stockholm_CV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stockholm_Education.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Stockholm_Education.Designer.cs">
+      <DependentUpon>Stockholm_Education.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stockholm_Employment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Stockholm_Employment.Designer.cs">
+      <DependentUpon>Stockholm_Employment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stockholm_Skill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Stockholm_Skill.Designer.cs">
+      <DependentUpon>Stockholm_Skill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Toronto_CV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Toronto_CV.Designer.cs">
+      <DependentUpon>Toronto_CV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Toronto_Education.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Toronto_Education.Designer.cs">
+      <DependentUpon>Toronto_Education.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Toronto_Employment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Toronto_Employment.Designer.cs">
+      <DependentUpon>Toronto_Employment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Toronto_Skill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Toronto_Skill.Designer.cs">
+      <DependentUpon>Toronto_Skill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserPage.Designer.cs">
+      <DependentUpon>UserPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuColorTable.cs" />
+    <Compile Include="MenuRenderer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecruitmentBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RecruitmentBox.Designer.cs">
+      <DependentUpon>RecruitmentBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RJDropDownMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RJPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sign-up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign-up.Designer.cs">
+      <DependentUpon>Sign-up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sing-in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sing-in.Designer.cs">
+      <DependentUpon>Sing-in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserBox.Designer.cs">
+      <DependentUpon>UserBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenuPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenuPage.Designer.cs">
+      <DependentUpon>MainMenuPage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddInfoRegister.resx">
+      <DependentUpon>AddInfoRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminCreateJob.resx">
+      <DependentUpon>AdminCreateJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPage.resx">
+      <DependentUpon>AdminPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminProfile.resx">
+      <DependentUpon>AdminProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attr_Education.resx">
+      <DependentUpon>Attr_Education.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attr_Employment.resx">
+      <DependentUpon>Attr_Employment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attr_Skill.resx">
+      <DependentUpon>Attr_Skill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company.resx">
+      <DependentUpon>Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateCV.resx">
+      <DependentUpon>CreateCV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailEmployee.resx">
+      <DependentUpon>DetailEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailRecruitmentBox.resx">
+      <DependentUpon>DetailRecruitmentBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownloadCV.resx">
+      <DependentUpon>DownloadCV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dublin_CV.resx">
+      <DependentUpon>Dublin_CV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dublin_Education.resx">
+      <DependentUpon>Dublin_Education.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dublin_Employment.resx">
+      <DependentUpon>Dublin_Employment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dublin_Skill.resx">
+      <DependentUpon>Dublin_Skill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindAJob.resx">
+      <DependentUpon>FindAJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryBox.resx">
+      <DependentUpon>HistoryBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobType.resx">
+      <DependentUpon>JobType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewMap.resx">
+      <DependentUpon>NewMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenTempPlate.resx">
+      <DependentUpon>OpenTempPlate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="RequestJob.resx">
+      <DependentUpon>RequestJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stockholm_CV.resx">
+      <DependentUpon>Stockholm_CV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stockholm_Education.resx">
+      <DependentUpon>Stockholm_Education.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stockholm_Employment.resx">
+      <DependentUpon>Stockholm_Employment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stockholm_Skill.resx">
+      <DependentUpon>Stockholm_Skill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toronto_CV.resx">
+      <DependentUpon>Toronto_CV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toronto_Education.resx">
+      <DependentUpon>Toronto_Education.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toronto_Employment.resx">
+      <DependentUpon>Toronto_Employment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toronto_Skill.resx">
+      <DependentUpon>Toronto_Skill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPage.resx">
+      <DependentUpon>UserPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RecruitmentBox.resx">
+      <DependentUpon>RecruitmentBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sign-up.resx">
+      <DependentUpon>Sign-up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sing-in.resx">
+      <DependentUpon>Sing-in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserBox.resx">
+      <DependentUpon>UserBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuPage.resx">
+      <DependentUpon>MainMenuPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Avt\nhatnguyen.jpg" />
+    <Content Include="Avt\user3.jpg" />
+    <Content Include="Avt\user1.jpg" />
+    <Content Include="Avt\user2.jpg" />
+    <Content Include="Avt\nghia1.jpg" />
+    <Content Include="Dataset\Admin.xml" />
+    <Content Include="Dataset\Dataset.xml" />
+    <Content Include="Dataset\Dataset1.xml" />
+    <Content Include="Dataset\Icon\ChoosePhoto.png" />
+    <Content Include="Dataset\Logo\AIA Life Insurance.jpg" />
+    <Content Include="Dataset\Logo\ANH VAN VIETNAM INTERNATIONAL.jpg" />
+    <Content Include="Dataset\Logo\Apollo Vietnam Education.jpg" />
+    <Content Include="Dataset\Logo\Bitu Việt Nam.jpg" />
+    <Content Include="Dataset\Logo\BOSCH GLOBAL.jpg" />
+    <Content Include="Dataset\Logo\CO VIETNAM TOURISM SERVICES.jpg" />
+    <Content Include="Dataset\Logo\DAOUKIWOOM INNOVATION.jpg" />
+    <Content Include="Dataset\Logo\DASS . JOINT STOCK COMPANY.jpg" />
+    <Content Include="Dataset\Logo\DUONG CONSULTING.jpg" />
+    <Content Include="Dataset\Logo\FPT Software.jpg" />
+    <Content Include="Dataset\Logo\IT CENTER MOBIFONE.jpg" />
+    <Content Include="Dataset\Logo\ITECHWX.jpg" />
+    <Content Include="Dataset\Logo\LangMaster IEO.jpg" />
+    <Content Include="Dataset\Logo\Japan Sugoi.jpg" />
+    <Content Include="Dataset\Logo\LOC PHUC BUSINESS INVESTMENT.jpg" />
+    <Content Include="Dataset\Logo\LOTTE VIETNAM.jpg" />
+    <Content Include="Dataset\Logo\Medical Group AMV GROUP.jpg" />
+    <Content Include="Dataset\Logo\NEST BY AIA.jpg" />
+    <Content Include="Dataset\Logo\Nextern Việt Nam.jpg" />
+    <Content Include="Dataset\Logo\1.jpg" />
+    <Content Include="Dataset\Logo\job.jpg" />
+    <Content Include="Dataset\Logo\Tek Experts Vietnam.jpg" />
+    <Content Include="Dataset\Logo\THALICEDU INTERNATIONAL EDUCATION.jpg" />
+    <Content Include="Dataset\Logo\TransCosmos Vietnam.jpg" />
+    <Content Include="Dataset\Logo\VIETNAM TRAVEL CORPORATION.jpg" />
+    <Content Include="Dataset\User.xml" />
+    <Content Include="Icon\down-arrow.png" />
+    <Content Include="Icon\up-arrow.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

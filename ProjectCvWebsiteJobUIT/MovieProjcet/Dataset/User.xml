@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<info>
+  <profile>
+    <id>0</id>
+    <username>user1</username>
+    <password>123</password>
+    <job>IT Webdev</job>
+    <level>Newbie</level>
+    <name>Nghia deep tr2</name>
+    <age>16/04/2002</age>
+    <phonenumber>0363106151</phonenumber>
+    <address>Chu ty, Gia Lai</address>
+    <allowcontact>1</allowcontact>
+    <statusjob>1</statusjob>
+    <gmail>20521656@gm.uit.edu.vn</gmail>
+    <stateavt>1</stateavt>
+  </profile>
+  <profile>
+    <id>1</id>
+    <username>user2</username>
+    <password>123</password>
+    <job>
+		IT Webdev
+	</job>
+    <level>
+		Newbie
+	</level>
+    <name>Nguyen Minh Nhat</name>
+    <age>16/02/2002</age>
+    <phonenumber>09876123</phonenumber>
+    <address>Dong Nai, Lam Dong</address>
+    <allowcontact>1</allowcontact>
+    <statusjob>1</statusjob>
+    <gmail>20521656@gm.uit.edu.vn</gmail>
+    <stateavt>1</stateavt>
+  </profile>
+  <profile>
+    <id>2</id>
+    <username>user3</username>
+    <password>123</password>
+    <job>
+		IT Webdev
+	</job>
+    <level>
+		Newbie
+	</level>
+    <name>Vu van minh</name>
+    <age>30 12 2002</age>
+    <phonenumber>123123</phonenumber>
+    <address>Thanh hoa</address>
+    <allowcontact>1</allowcontact>
+    <statusjob>0</statusjob>
+    <gmail>20521656@gm.uit.edu.vn</gmail>
+    <stateavt>1</stateavt>
+  </profile>
+</info>

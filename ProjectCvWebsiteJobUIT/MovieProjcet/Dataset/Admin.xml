@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<profile>
+		<id>1</id>
+		<username>admin1</username>
+		<password>123</password>
+		<name>Admin1</name>
+		<age>30</age>
+		<gender>Female</gender>
+		<phonenumber>01</phonenumber>
+		<company>Bosch</company>
+	</profile>
+
+	<profile>
+		<id>2</id>
+		<username>admin2</username>
+		<password>123</password>
+		<name>Admin2</name>
+		<age>30</age>
+		<gender>Female</gender>
+		<phonenumber>02</phonenumber>
+		<company>FPT</company>
+	</profile>
+
+	<profile>
+		<id>3</id>
+		<username>admin3</username>
+		<password>123</password>
+		<name>Admin3</name>
+		<age>30</age>
+		<gender>Female</gender>
+		<phonenumber>03</phonenumber>
+		<company>Tek</company>
+	</profile>
+</info>

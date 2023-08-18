@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dataset>
+  <info>
+    <id>1</id>
+    <name>IT CENTER MOBIFONE</name>
+    <job>Communication Specialist</job>
+    <salary>Negotiable</salary>
+    <location>Ha Noi - Cau Giay</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>1 person</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>2 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>1</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>15 đường số 11 khu dân cư Him Lam, phường Tân Hưng quận 7, Quận 7</address>
+    <coordinate>10.743812833110248, 106.69519701095034</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>2</id>
+    <name>BOSCH GLOBAL</name>
+    <job>Java Developer</job>
+    <salary>Negotiable</salary>
+    <location>HCM - Ha Noi</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>10 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>2 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>82 Hoàng Hoa Thám, Phường 12, Tân Bình, Tân Bình</address>
+    <coordinate>10.79927750769218, 106.64738235385491</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>3</id>
+    <name>AIA Life Insurance</name>
+    <job>Financial Consultant</job>
+    <salary>500 - 1000$</salary>
+    <location>Ho Chi Minh</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>10 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>2 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>Etown 2 Building, 364 Cong Hoa St, Tân Bình</address>
+    <coordinate>10.8022325444553, 106.63992436800936</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>4</id>
+    <name>NEST BY AIA</name>
+    <job>Financial Advisor</job>
+    <salary>600 - 1000$</salary>
+    <location>HCM - District 1</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>5 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>2 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>1</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <user4>1</user4>
+    <address>Tầng 14, Tòa nhà HM Town, 412 Nguyễn Thị Minh Khai, Phường 05, Quận 3</address>
+    <coordinate>10.771367387531049, 106.68652974986423</coordinate>
+    <nghia1>0</nghia1>
+    <nhatnguyen>0</nhatnguyen>
+    <nhando>0</nhando>
+    <phamvan>0</phamvan>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>5</id>
+    <name>Bitu Việt Nam</name>
+    <job>Leader Digital Marketing</job>
+    <salary>800 - 1000$</salary>
+    <location>Ho Chi Minh</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>1 person</numberrecruitment>
+    <requiredlevel>Team leader</requiredlevel>
+    <experience>2 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <user4>1</user4>
+    <address>1017, Hồng Bàng, Phường 12, Quận 6</address>
+    <coordinate>10.754326246603492, 106.63590145929753</coordinate>
+    <Vannghia>1</Vannghia>
+    <nhatnguyen>1</nhatnguyen>
+  </info>
+  <info>
+    <id>6</id>
+    <name>Japan Sugoi</name>
+    <job>Tax Refund Service</job>
+    <salary>500 - 800$</salary>
+    <location>Ha Noi - Tu Liem</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Female</gender>
+    <numberrecruitment>5 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>No experience required</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <user4>1</user4>
+    <address>số 25 đường 23 phường Linh Chiểu, Thủ Đức</address>
+    <coordinate>10.853355715826027, 106.7623852812542</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>7</id>
+    <name>Medical Group AMV GROUP</name>
+    <job>Sales Pharmacist </job>
+    <salary>Over 800$</salary>
+    <location>HCM - Ha Noi</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>15 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>1 year</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>iTechwx - Lầu 12, tòa nhà Opal Tower số 92 Nguyễn Hữu Cảnh, Bình Thạnh, Hồ Chí Minh, Bình Thạnh</address>
+    <coordinate>10.789693995446642, 106.71840529059953</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>8</id>
+    <name>Tek Experts Vietnam</name>
+    <job>IT Support Engineers</job>
+    <salary>Over 600$</salary>
+    <location>Ho Chi Minh</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>6 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>No experience required</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>1</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>55/10 Trần Đình Xu, Phường Cầu Kho, Quận 1</address>
+    <coordinate>10.760672903099982, 106.69041201757817</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>9</id>
+    <name>BOSCH GLOBAL</name>
+    <job>Embedded SE - All level </job>
+    <salary>Negotiable</salary>
+    <location>HCM - Ha Noi</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>10 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>1 year</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>123 Lý Chính Thắng, Phường Võ Thị Sáu, Quận 3, TP.HCM</address>
+    <coordinate>10.787256692247057, 106.68485605886161</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>10</id>
+    <name>IT CENTER MOBIFONE</name>
+    <job>Exploiting Applications</job>
+    <salary>Over 2000$</salary>
+    <location>Ha Noi</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>14 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>than 1 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>123 Lý Chính Thắng, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Quận 3</address>
+    <coordinate>10.787209389417393, 106.68493049355482</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>11</id>
+    <name>DAOUKIWOOM INNOVATION</name>
+    <job>Business professionals</job>
+    <salary>Over 400$</salary>
+    <location>Ho Chi Minh</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>15 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>No experience required</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>145/8 Đường 3 tháng 2, Phường 11, Quận 10</address>
+    <coordinate>10.772862383113177, 106.67620836539463</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>12</id>
+    <name>DASS . JOINT STOCK COMPANY</name>
+    <job>Cyber Security Engineer</job>
+    <salary>Negotiable</salary>
+    <location>HCM - District 1</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>2 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>1 year</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>163 Nguyễn Văn Trỗi, Phú Nhuận, HCM, Phú Nhuận</address>
+    <coordinate>10.796234027501756, 106.67493556513293</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>13</id>
+    <name>FPT Software</name>
+    <job>Fresher C Embedded Dev</job>
+    <salary>500 - 600$</salary>
+    <location>HCM - Ha Noi</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>50 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>Than 1 year</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>123 Lý Chính Thắng, Phường 7, Quận 3, Thành phố Hồ Chí Minh, Quận 3</address>
+    <coordinate>10.787121150872442, 106.68486032672072</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>14</id>
+    <name>CO VIETNAM TOURISM SERVICES</name>
+    <job>Tour Operator</job>
+    <salary>Over 750$</salary>
+    <location>HCM - District 3</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>4 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>Than 1 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>34 Đ. Lê Duẩn, Phường Bến Nghé, Quận 1</address>
+    <coordinate>10.78111992486267, 106.69848509676959</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>15</id>
+    <name>ANH VAN VIETNAM INTERNATIONAL</name>
+    <job>Senior Graphic Designer</job>
+    <salary>Negotiable</salary>
+    <location>HCM - Ha Noi</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>1 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>3 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>1056A Nguyễn Văn Linh, Quận 7</address>
+    <coordinate>10.73120561707295, 106.70448643617483</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>16</id>
+    <name>VIETNAM TRAVEL CORPORATION</name>
+    <job>Travel Sales</job>
+    <salary>Over 1500$</salary>
+    <location>Ha Noi</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>5 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>2 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>37 Tôn Đức Thắng, P. Bến Nghé, Quận 1</address>
+    <coordinate>10.784004215505755, 106.70564966181651</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>17</id>
+    <name>TransCosmos Vietnam</name>
+    <job>Customer Care Support</job>
+    <salary>Upto 400$</salary>
+    <location>Ho Chi Minh</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>5 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>Than 1 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>02 Ngô Đức Kế, Phường Bến Nghé, Quận 1</address>
+    <coordinate>10.774945683532042, 106.7061571847278</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>18</id>
+    <name>Apollo Vietnam Education</name>
+    <job>Consultant</job>
+    <salary>800- 1000$</salary>
+    <location>Ha Noi</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>20 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>No experience required</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>602/27 Dien Bien Phu, Ward 22, Bình Thạnh</address>
+    <coordinate>10.796525735817944, 106.71633238265571</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>19</id>
+    <name>ITECHWX</name>
+    <job>QA/ QA Staff</job>
+    <salary>600 - 800$</salary>
+    <location>Ho Chi Minh</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>1 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>2 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>101 Nguyen Cuu Van, Bình Thạnh</address>
+    <coordinate>10.796210270148723, 106.70612273047014</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>20</id>
+    <name>DUONG CONSULTING</name>
+    <job>IT Support Staff</job>
+    <salary>Over 400$</salary>
+    <location>HCM - Thu Duc</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>2 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>No experience required</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>Tầng 11, Tòa nhà Hado Airport, Số 02, Đường Hồng Hà, Phường 2, Quận Tân Bình, TP.HCM, Tân Bình</address>
+    <coordinate>10.813234111496016, 106.66610490359261</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>21</id>
+    <name>LOTTE VIETNAM</name>
+    <job>Collection Officer</job>
+    <salary>Upto 1500$</salary>
+    <location>HCM - BD</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>15 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>No experience required</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>Toà nhà Saigon Tel, Khu Công Viên Phần Mềm Quang Trung, Phường Tân Chánh Hiệp, Quận 12</address>
+    <coordinate>10.85327835584132, 106.62997349900749</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>22</id>
+    <name>ITECHWX</name>
+    <job>Quality Manager</job>
+    <salary>Upto 2,150$</salary>
+    <location>Ho Chi Minh</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>1 person</numberrecruitment>
+    <requiredlevel>Manager / Supervisor</requiredlevel>
+    <experience>2 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>42 Giải Phóng, Phường 4, quận Tân Bình, Tân Bình</address>
+    <coordinate>10.803023620540312, 106.65836213869646</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>23</id>
+    <name>LangMaster IEO</name>
+    <job>Online English Instructor </job>
+    <salary>Over 200$</salary>
+    <location>HCM - Ha Noi</location>
+    <jobtype>Part-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>50 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>No experience required</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>18 Nguyễn Thị Nhung, Khu đô thị Vạn Phúc, P Hiệp Bình Phước, Thủ Đức</address>
+    <coordinate>10.845162856540211, 106.70903946959791</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <id>24</id>
+    <name>THALICEDU INTERNATIONAL EDUCATION</name>
+    <job>Sales Staff, Course 2023</job>
+    <salary>Upto 1000$</salary>
+    <location>Ho Chi Minh</location>
+    <jobtype>Full-time</jobtype>
+    <gender>Not required</gender>
+    <numberrecruitment>5 people</numberrecruitment>
+    <requiredlevel>Employee</requiredlevel>
+    <experience>2 years</experience>
+    <jobdescription>
+    </jobdescription>
+    <right>
+    </right>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <address>Phòng 908, Tầng 9, Tòa nhà Paragon, Số 3 Nguyễn Lương Bằng , Phường Tân Phú, Quận 7</address>
+    <coordinate>10.733555687310696, 106.72223689738698</coordinate>
+    <nhatnguyen>0</nhatnguyen>
+  </info>
+  <info>
+    <nhatnguyen>0</nhatnguyen>
+    <address>18 Nguyễn Thị Nhung, Khu đô thị Vạn Phúc, P Hiệp Bình Phước, Thủ Đức</address>
+    <coordinate>10.845162856540211, 106.7090394695979</coordinate>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <user4>0</user4>
+    <name>Promax</name>
+    <job>1</job>
+    <jobtype>1</jobtype>
+    <numberrecruitment>1</numberrecruitment>
+    <jobdescription>1</jobdescription>
+    <right>1</right>
+    <requiredlevel>1</requiredlevel>
+    <location>1</location>
+    <experience>1</experience>
+    <salary>1</salary>
+    <gender>1</gender>
+  </info>
+  <info>
+    <user1>0</user1>
+    <address>18 Nguyễn Thị Nhung, Khu đô thị Vạn Phúc, P Hiệp Bình Phước, Thủ Đức</address>
+    <coordinate>10.845162856540211, 106.7090394695979</coordinate>
+    <user1>0</user1>
+    <user2>0</user2>
+    <user3>0</user3>
+    <user4>0</user4>
+    <name>FPT</name>
+    <job>Nghia</job>
+    <jobtype>Nghia</jobtype>
+    <numberrecruitment>Nghia</numberrecruitment>
+    <jobdescription>Nghia</jobdescription>
+    <right>Nghia</right>
+    <requiredlevel>Nghia</requiredlevel>
+    <location>Nghia</location>
+    <experience>Nghia</experience>
+    <salary>Nghia</salary>
+    <gender>Nghia</gender>
+  </info>
+</Dataset>
